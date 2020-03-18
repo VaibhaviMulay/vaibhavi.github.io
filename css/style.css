@@ -1010,7 +1010,7 @@
 		}
 
 		.wrapper.style3 {
-			background: #e0555a;
+			background: #6495ED;
 			color: #d1f2f5;
 		}
 
@@ -1230,8 +1230,8 @@
 
 	#banner {
 		background-attachment: scroll,						fixed;
-		background-color: #494d53;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-color: #6495ED;
+		
 		background-position: top left,					center center;
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;
@@ -1242,12 +1242,8 @@
 	}
 
 		#banner:after {
-			-moz-transition: opacity 2s ease-in-out;
-			-webkit-transition: opacity 2s ease-in-out;
-			-o-transition: opacity 2s ease-in-out;
-			-ms-transition: opacity 2s ease-in-out;
-			transition: opacity 2s ease-in-out;
-			background: #3d4045;
+			
+			background: #6495ED;
 			content: '';
 			height: 100%;
 			left: 0;
